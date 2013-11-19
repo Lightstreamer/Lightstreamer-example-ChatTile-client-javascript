@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<!--
+  LIGHTSTREAMER - www.lightstreamer.com
+  Room Demo
+  
+  Copyright 2013 Weswit s.r.l.
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<html style="overflow-x: hidden; overflow-y: hidden">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <title>Lightstreamer :: Room Demo</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:800,400' rel='stylesheet' type='text/css'>
+  
+  <script src="js/masonry.pkgd.min.js"></script>
+  
+  <script data-main="js/main" src="js/require.js"></script>
+  <script src="js/lightstreamer.js"></script>
+    
+</head>
+
+<body>
+
+  <a href="https://github.com/Weswit/Lightstreamer-example-ChatTile-client-javascript"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:1" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+
+  <div id="wrap_m">
+    
+    <!-- nickname edit form -->
+   <div id="loginDiv">
+      <form id="loginForm" onSubmit="login.submitNick(); return false;" style="margin: 0px; text-align: center; align: center">
+        <div id="text_1" class="highTitle" >Who are you?</div>
+        <input id="user_nick" type="text" maxlength="15" value="" class="highFeature" disabled />
+        <input id="nick_button" type="submit" value="Let's go!" class="highFeature" style="height: 60px" disabled />
+        <div id="errorDiv" class="highError" > </div>
+      </form>
+    </div>
+    
+    <div id="game_div" style="display:none"> 
+    
+      <div id="room_d" class="masonry"></div>
+
+      <div id="bottom" >
+        <table style="width:100%; ">
+          <tr>
+            <td>
+              <div style="float: left; display: block;">
+                <span id="iam" class="iam" style="width: 415px; padding-right: 10px; margin-left: 10px; text-align: center;" >You are </span>
+                <input id="user_msg" type="text" value="" onkeyup="ssubmit(this.value)" maxlength="30" class="highFeature" style="margin-left: 5px; font-size: 18px; width: 410px" />
+                <input id="clear_button" type="submit" onclick="clear_input();"  style="padding-right: 15px; font-size: 18px; height: 30px; text-align: center;" value="Clear" class="highFeature" />
+              </div>
+            </td>
+            <td style="text-align: right;">
+              <div style="text-align: right; margin-right: 20px; margin-top: 0px; padding-bottom: 15px;" ><a href="http://www.lightstreamer.com" target="_blank">
+                <img src="images/logo.png" alt="LIGHTSTREAMER" /></a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+    
+    <div id="empty"></div>
+  </div>
+  
+</body>
+
+</html>
