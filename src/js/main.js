@@ -29,7 +29,7 @@ require(["login","Buddies","lsClient","DisplaySwitch","Subscription","StaticGrid
   
   var buddiesSchema = ["command", "key", "nick", "msg", "usrAgnt"];
 
-  var subBuddies = new Subscription("COMMAND","Custom_list_Default_s0",buddiesSchema);
+  var subBuddies = new Subscription("COMMAND","Players_list",buddiesSchema);
   if(unfilteredPlayers) {
     subBuddies.setRequestedMaxFrequency("unfiltered");
   }

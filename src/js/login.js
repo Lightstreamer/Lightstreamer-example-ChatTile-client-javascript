@@ -114,7 +114,7 @@ define(["./lsClient"],function(lsClient) {
             myNick = text;
             
             disableLogin();
-            lsClient.sendMessage("n|Default_"+myNick, "Nick", 3000, {
+            lsClient.sendMessage("n|"+myNick, "Nick", 3000, {
               onAbort: function(originalMex, snt) {
                 enableLogin();
                 showLoginError("Unexpected error. Please try again.");
