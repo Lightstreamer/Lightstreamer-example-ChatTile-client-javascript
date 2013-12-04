@@ -23,7 +23,7 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-  <title> Lightstreamer Chat-Tile Demo for JavaScript Client</title>
+  <title>Lightstreamer Chat-Tile Demo for JavaScript Client</title>
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:800,400' rel='stylesheet' type='text/css'>
   
@@ -42,6 +42,7 @@
     
     <!-- nickname edit form -->
    <div id="loginDiv">
+      <div id="demoTitle" class="highTitle_b">Lightstreamer Chat-Ball Demo</div>
       <form id="loginForm" onSubmit="login.submitNick(); return false;" style="margin: 0px; text-align: center; align: center">
         <div id="text_1" class="highTitle" >Who are you?</div>
         <input id="user_nick" type="text" maxlength="15" value="" class="highFeature" disabled />
@@ -60,6 +61,7 @@
             <td>
               <div style="float: left; display: block;">
                 <span id="iam" class="iam" style="width: 415px; padding-right: 10px; margin-left: 10px; text-align: center;" >You are </span>
+                <label for="user_msg" id="label_in" class="highbSmall" > Type your message (max 30 chars) </label>
                 <input id="user_msg" type="text" value="" onkeyup="ssubmit(this.value)" maxlength="30" class="highFeature" style="margin-left: 5px; font-size: 18px; width: 410px" />
                 <input id="clear_button" type="submit" onclick="clear_input();"  style="padding-right: 15px; font-size: 18px; height: 30px; text-align: center;" value="Clear" class="highFeature" />
               </div>

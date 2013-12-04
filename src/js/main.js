@@ -46,7 +46,7 @@ require(["login","Buddies","lsClient","DisplaySwitch","Subscription","StaticGrid
                 
         buddies.setOwnerNick(newNick);
         document.getElementById("iam").innerHTML = "";
-        document.getElementById("iam").appendChild(document.createTextNode("Welcome " + newNick + "!"));
+        document.getElementById("iam").appendChild(document.createTextNode("You are " + newNick ));
         setTimeout(function(){document.getElementById("user_msg").value = "";},100);
         
         lsClient.subscribe(subBuddies);
