@@ -1,6 +1,6 @@
 /*
  * LIGHTSTREAMER - www.lightstreamer.com
- * Chat-Tile Demo
+ * Basic Instant Messenger Demo
  *  Copyright 2013 Weswit Srl
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -117,7 +117,7 @@ div#bottom  {
 .highMessage { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; line-height: 20px; font-size: 28px; font-weight: 400; text-align: center; margin-top: 50px; margin-bottom: 50px; }
 .roundbox2 { border-radius: 15px; width: 120px; height: 80px; border-style: solid; border-width: 0px; border-color: #C3DCE5; box-shadow: -4px 0px 4px -3px #94A5AA, 4px 0px 4px -3px #94A5AA }
 .highSmall { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; line-height: 20px; font-size: 20px; font-weight: 400; text-align: center; margin-top: 10px; }
-.highbSmall { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; line-height: 20px; font-size: 20px; font-weight: 400; text-align: center; }
+.highbSmall { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; line-height: 24px; font-size: 24px; font-weight: 400; text-align: center; }
 .highvSmall { 
   font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; 
   color: #555555; 
@@ -132,7 +132,7 @@ div#bottom  {
 }
 .highvvSmall { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; font-size: 9px; font-weight: 700; text-align: center;  }
 .highvvSmall-hot { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #aa0000; font-size: 9px; font-weight: 700; text-align: center;  }
-.iam { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #ffffff; line-height: 20px; font-size: 24px; font-weight: 400; text-align: left; }
+.iam { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #ffffff; line-height: 24px; font-size: 24px; font-weight: 400; text-align: left; }
 .divBall {
 	position: absolute;
  
