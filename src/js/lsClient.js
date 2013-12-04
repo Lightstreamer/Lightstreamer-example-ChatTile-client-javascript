@@ -16,7 +16,7 @@
 
 //////////////// Connect to current host (or localhost) and configure a StatusWidget
 define(["LightstreamerClient"],function(LightstreamerClient) {
-  var lsClient = new LightstreamerClient(null,"ROOM");
+  var lsClient = new LightstreamerClient(null,"CHATTILE");
   lsClient.connect();
 
   return lsClient;
