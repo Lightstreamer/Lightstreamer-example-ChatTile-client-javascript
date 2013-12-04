@@ -111,12 +111,13 @@ div#bottom  {
 .messages  { 	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; color: #005500; font-weight: bold; text-align: center; }
 .messages-fresh  { 	font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 7pt; color: #005500; background-color: #FFF056; font-weight: bold; text-align: center; }  
 .highTitle { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #555555; font-size: 60px; font-weight: 800; line-height: 36px; text-align: center; margin-bottom: 40px;  margin-top: 80px;}
+.highTitle_b{ font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #aaaaaa; font-size: 36px; font-weight: 800; line-height: 36px; text-align: center; margin-bottom: 40px;  margin-top: 80px;}
 .highFeature { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #555555; font-size: 40px; font-weight: 400; text-align: left; }
 .highError { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #aa0000; line-height: 20px; font-size: 28px; font-weight: 400; text-align: center; margin-top: 50px; }
 .highMessage { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; line-height: 20px; font-size: 28px; font-weight: 400; text-align: center; margin-top: 50px; margin-bottom: 50px; }
 .roundbox2 { border-radius: 15px; width: 120px; height: 80px; border-style: solid; border-width: 0px; border-color: #C3DCE5; box-shadow: -4px 0px 4px -3px #94A5AA, 4px 0px 4px -3px #94A5AA }
 .highSmall { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; line-height: 20px; font-size: 20px; font-weight: 400; text-align: center; margin-top: 10px; }
-.highbSmall { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; line-height: 20px; font-size: 20px; font-weight: 400; text-align: center; }
+.highbSmall { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; line-height: 24px; font-size: 24px; font-weight: 400; text-align: center; }
 .highvSmall { 
   font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; 
   color: #555555; 
@@ -131,7 +132,7 @@ div#bottom  {
 }
 .highvvSmall { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #999999; font-size: 9px; font-weight: 700; text-align: center;  }
 .highvvSmall-hot { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #aa0000; font-size: 9px; font-weight: 700; text-align: center;  }
-.iam { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #ffffff; line-height: 20px; font-size: 24px; font-weight: 400; text-align: left; }
+.iam { font-family: 'Roboto Condensed',Arial,Helvetica,sans-serif; color: #ffffff; line-height: 24px; font-size: 24px; font-weight: 400; text-align: left; }
 .divBall {
 	position: absolute;
  
