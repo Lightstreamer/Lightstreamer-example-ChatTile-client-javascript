@@ -1,6 +1,6 @@
-# Lightstreamer Chat-Tile Demo for JavaScript Client #
+# Lightstreamer - Chat-Tile Demo - JQuery Client #
 
-This project includes a web client front-end example for the [Lightstreamer Chat-Tile Demo Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java).
+This project includes a web client front-end example for the [Lightstreamer - Chat-Tile Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java).
 
 ## Chat-Tile Demo ##
 
@@ -50,15 +50,15 @@ The demo is now ready to be launched.
 
 ## Lightstreamer Adapters needed by this demo client ##
 
-* [Lightstreamer Chat-Tile Demo Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java)
-* [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Chat-Tile Demo -  Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 ## Similar demo clients that may interest you ##
 
-* [Lightstreamer Room-Ball Demo for JavaScript Client]()
-* [Lightstreamer Chat Demo for JavaScript Client](https://github.com/Weswit/Lightstreamer-example-Chat-client-javascript)
-* [Lightstreamer Round-Trip Demo for JavaScript Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
-* [Lightstreamer Messenger Demo for JavaScript Client](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
+* [Lightstreamer - Room-Ball Demo - HTML Client]()
+* [Lightstreamer - Chat Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Chat-client-javascript)
+* [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
+* [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
 
 # Lightstreamer Compatibility Notes #
 
