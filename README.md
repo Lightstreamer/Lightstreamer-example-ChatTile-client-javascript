@@ -1,4 +1,4 @@
-# Lightstreamer - Chat-Tile Demo - JQuery Client #
+# Lightstreamer - Chat-Tile Demo - JQuery (Masonry) Client #
 
 This project includes a web client front-end example for the [Lightstreamer - Chat-Tile Demo - Java SE Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java).
 
