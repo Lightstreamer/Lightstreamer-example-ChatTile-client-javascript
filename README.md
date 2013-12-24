@@ -1,5 +1,7 @@
 # Lightstreamer - Chat-Tile Demo - JQuery (Masonry) Client #
 
+<!-- START DESCRIPTION lightstreamer-example-chattile-client-javascript -->
+
 This project includes a web client front-end example for the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java).
 
 ## Chat-Tile Demo ##
@@ -24,6 +26,8 @@ User messages are broadcasted as you type, character by character, to all other 
 The demo includes the following client-side technologies:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 1 item, subscribed to in <b>COMMAND</b> mode.
 * The user messages are sent to the Lightstreamer Server using the [LightstreamerClient.sendMessage](http://www.lightstreamer.com/docs/client_javascript_uni_api/LightstreamerClient.html#sendMessage) utility.
+
+<!-- END DESCRIPTION lightstreamer-example-chattile-client-javascript -->
 
 # Deploy #
 
@@ -50,8 +54,11 @@ The demo is now ready to be launched.
 
 ## Lightstreamer Adapters needed by this demo client ##
 
+<!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Chat-Tile Demo -  Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
