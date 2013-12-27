@@ -1,4 +1,4 @@
-# Lightstreamer - Chat-Tile Demo - JQuery (Masonry) Client #
+# Lightstreamer - Chat-Tile Demo - HTML (JQuery, Masonry) Client #
 
 <!-- START DESCRIPTION lightstreamer-example-chattile-client-javascript -->
 
