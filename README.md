@@ -23,7 +23,7 @@ This <b>Chat-Tile Demo</b> implements a simple chat/collaborative application fe
 Once logged in, the user can start exchange messages with every other user present in the demo. For each user is created a tile of a specific background color, which contains the last message typed as well as the nickname chosen by the ueser and the user-agent information of the originating client.<br>
 User messages are broadcasted as you type, character by character, to all other users.<br>
 
-The demo includes the following client-side technologies:
+The demo includes the following client-side functionalities:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 1 item, subscribed to in <b>COMMAND</b> mode.
 * The user messages are sent to the Lightstreamer Server using the [LightstreamerClient.sendMessage](http://www.lightstreamer.com/docs/client_javascript_uni_api/LightstreamerClient.html#sendMessage) utility.
 
