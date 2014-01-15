@@ -6,18 +6,8 @@ This project includes a web client front-end example for the [Lightstreamer - Ch
 
 ## Chat-Tile Demo ##
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://demos.lightstreamer.com/ChatTileDemo" target="_blank"><img src="screen.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;An online demonstration is hosted on our servers at:<br>
-      &nbsp;<a href="http://demos.lightstreamer.com/ChatTileDemo" target="_blank">http://demos.lightstreamer.com/ChatTileDemo</a>
-    </td>
-  </tr>
-</table>
+[![screenshot](screen_large.png)](http://demos.lightstreamer.com/ChatTileDemo/)<br>
+An online demonstration is hosted on our servers at: [http://demos.lightstreamer.com/ChatTileDemo/](http://demos.lightstreamer.com/ChatTileDemo/)<br>
 
 This <b>Chat-Tile Demo</b> implements a simple chat/collaborative application fed in real time via a Lightstreamer server.<br>
 Once logged in, the user can start exchange messages with every other user present in the demo. For each user is created a tile of a specific background color, which contains the last message typed as well as the nickname chosen by the ueser and the user-agent information of the originating client.<br>
@@ -52,7 +42,7 @@ The demo is now ready to be launched.
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Chat-Tile Demo -  Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java)
@@ -60,9 +50,9 @@ The demo is now ready to be launched.
 
 <!-- END RELATED_ENTRIES -->
 
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
-* [Lightstreamer - Room-Ball Demo - HTML Client]()
+* [Lightstreamer - Room-Ball Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoomBall-client-javascript)
 * [Lightstreamer - Chat Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Chat-client-javascript)
 * [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
 * [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
