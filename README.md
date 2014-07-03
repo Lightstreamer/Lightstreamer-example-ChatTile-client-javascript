@@ -1,17 +1,20 @@
-# Lightstreamer - Chat-Tile Demo - HTML (JQuery, Masonry) Client #
+# Lightstreamer - Chat-Tile Demo - HTML (JQuery, Masonry) Client
 
 <!-- START DESCRIPTION lightstreamer-example-chattile-client-javascript -->
+The *Chat-Tile Demo* implements a simple chat/collaborative application based on [Lightstreamer](http://www.lightstreamer.com).
 
 This project includes a web client front-end example for the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java).
 
-## Chat-Tile Demo ##
+## Live Demo
+[![screenshot](screen_large.png)](http://demos.lightstreamer.com/ChatTileDemo)
 
-[![screenshot](screen_large.png)](http://demos.lightstreamer.com/ChatTileDemo/)<br>
-An online demonstration is hosted on our servers at: [http://demos.lightstreamer.com/ChatTileDemo/](http://demos.lightstreamer.com/ChatTileDemo/)<br>
+###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/ChatTileDemo)
 
-This <b>Chat-Tile Demo</b> implements a simple chat/collaborative application fed in real time via a Lightstreamer server.<br>
+## Details
+
+This *Chat-Tile Demo* implements a simple chat/collaborative application fed in real time via a Lightstreamer server.
 Once logged in, the user can start exchange messages with every other user present in the demo. For each user is created a tile of a specific background color, which contains the last message typed as well as the nickname chosen by the ueser and the user-agent information of the originating client.<br>
-User messages are broadcasted as you type, character by character, to all other users.<br>
+User messages are broadcasted as you type, character by character, to all other users.
 
 The demo includes the following client-side functionalities:
 * A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 1 item, subscribed to in <b>COMMAND</b> mode.
@@ -19,7 +22,7 @@ The demo includes the following client-side functionalities:
 
 <!-- END DESCRIPTION lightstreamer-example-chattile-client-javascript -->
 
-# Deploy #
+## Installation
 
 Before you can run the demo some dependencies need to be solved:
 
@@ -40,9 +43,9 @@ in js/lsClient.js file and change it accordingly (replace null with your server 
 Anyway the [Chat-Tile Demo Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java) have to be deployed in your local Lightstreamer server instance.
 The demo is now ready to be launched.
 
-# See Also #
+## See Also
 
-## Lightstreamer Adapters Needed by This Demo Client ##
+### Lightstreamer Adapters Needed by This Client
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Chat-Tile Demo -  Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java)
@@ -50,13 +53,13 @@ The demo is now ready to be launched.
 
 <!-- END RELATED_ENTRIES -->
 
-## Related Projects ##
+### Related Projects
 
 * [Lightstreamer - Room-Ball Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoomBall-client-javascript)
 * [Lightstreamer - Chat Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Chat-client-javascript)
 * [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
 * [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
 
-# Lightstreamer Compatibility Notes #
+## Lightstreamer Compatibility Notes
 
 - Compatible with Lightstreamer JavaScript Client library version 6.0 or newer.
