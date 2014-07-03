@@ -24,24 +24,20 @@ The demo includes the following client-side functionalities:
 
 ## Installation
 
+Note that, as prerequisite, the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+
 Before you can run the demo some dependencies need to be solved:
 
--  Get the lightstreamer.js file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
-   and put it in the src/js folder of the demo. Alternatively you can build a lightstreamer.js file from the 
-   [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
-   In that case be sure to include the LightstreamerClient, Subscription, DynaGrid, and StatusWidget modules and to use the "Use AMD" version.
--  Get the require.js file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the src/[demo_name]/js folder of the demo.
--  Get the masonry.pkgd.min.js file form [Masonry - Cascading grid layout library - home page](http://masonry.desandro.com/) and put it in the src/js folder of the demo.
-
-You can deploy this demo in order to use the Lightstreamer server as Web server or in any external Web Server you are running. 
-If you choose the former case please note that in the <LS_HOME>/pages/demos/ folder there is a copy of the /src directory of this project, if this is non your case please create the folders <LS_HOME>/pages/demos/ChatTileDemo then copy here the contents of the /src folder of this project.<br>
-The client demo configuration assumes that Lightstreamer Server, Lightstreamer Adapters and this client are launched on the same machine. If you need to targeting a different Lightstreamer server please search this line:
-```js
-var lsClient = new LightstreamerClient(null,"CHATTILE");
-```
-in js/lsClient.js file and change it accordingly (replace null with your server URI).<br>
-Anyway the [Chat-Tile Demo Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java) have to be deployed in your local Lightstreamer server instance.
-The demo is now ready to be launched.
+* Download this project.
+* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
+  and put it in the `src/js` folder of the demo. Alternatively you can build a lightstreamer.js file from the 
+  [online generator](http://www.lightstreamer.com/distros/Lightstreamer_Allegro-Presto-Vivace_5_1_1_Colosseo_20130305/Lightstreamer/DOCS-SDKs/sdk_client_javascript/tools/generator.html).
+  In that case be sure to include the LightstreamerClient, Subscription, DynaGrid, and StatusWidget modules and to use the "Use AMD" version.
+* Get the `require.js` file form [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/js` folder of the demo.
+*  Get the `masonry.pkgd.min.js` file form [Masonry - Cascading grid layout library - home page](http://masonry.desandro.com/) and put it in the `src/js` folder of the demo.
+* Deploy this demo on the Lightstreamer Server (used as Web server) or in any external Web Server. If you choose the former, please note that in the `<LS_HOME>/pages/demos/` folder there may be already a `ChatTileDemo` folder. If this is not your case please create the folders `<LS_HOME>/pages/demos/ChatTileDemo` and copy here the contents of the `/src` folder of this project.
+The client demo configuration assumes that Lightstreamer Server, Lightstreamer Adapters and this client are launched on the same machine. If you need to targeting a different Lightstreamer server please search in `js/lsClient.js` this line:<BR/> `var lsClient = new LightstreamerClient(null,"CHATTILE");`<BR/> and change it accordingly (replace null with your server URI).
+* Open your browser and point it to: [http://localhost:8080/demos/ChatDemo/](http://localhost:8080/demos/ChatTileDemo/)
 
 ## See Also
 
