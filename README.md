@@ -26,8 +26,6 @@ The demo includes the following client-side functionalities:
 
 Note that, as prerequisite, the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 
-Before you can run the demo some dependencies need to be solved:
-
 * Download this project.
 * Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
   and put it in the `src/js` folder of the demo. Alternatively you can build a lightstreamer.js file from the 
