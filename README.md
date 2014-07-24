@@ -34,7 +34,7 @@ If you want to install a version of this demo pointing to your local Lightstream
 *  Get the `masonry.pkgd.min.js` file form [Masonry - Cascading grid layout library - home page](http://masonry.desandro.com/) and put it in the `src/js` folder of the demo.
 * Deploy this demo on the Lightstreamer Server (used as Web server) or in any external Web Server. If you choose the former, please note that in the `<LS_HOME>/pages/demos/` folder there may be already a `ChatTileDemo` folder. If this is not your case please create the folders `<LS_HOME>/pages/demos/ChatTileDemo` and copy here the contents of the `/src` folder of this project.
 The client demo configuration assumes that Lightstreamer Server, Lightstreamer Adapters and this client are launched on the same machine. If you need to targeting a different Lightstreamer server please search in `js/lsClient.js` this line:<BR/> `var lsClient = new LightstreamerClient(null,"CHATTILE");`<BR/> and change it accordingly (replace null with your server URI).
-* Open your browser and point it to: [http://localhost:8080/demos/ChatDemo/](http://localhost:8080/demos/ChatTileDemo/)
+* Open your browser and point it to: [http://localhost:8080/demos/ChatTileDemo/](http://localhost:8080/demos/ChatTileDemo/)
 
 ## See Also
 
