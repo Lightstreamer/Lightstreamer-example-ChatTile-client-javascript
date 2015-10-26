@@ -3,7 +3,7 @@
 <!-- START DESCRIPTION lightstreamer-example-chattile-client-javascript -->
 The *Chat-Tile Demo* implements a simple chat/collaborative application based on [Lightstreamer](http://www.lightstreamer.com).
 
-This project includes a web client front-end example for the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java).
+This project includes a web client front-end example for the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ChatTile-adapter-java).
 
 ## Live Demo
 [![screenshot](screen_large.png)](http://demos.lightstreamer.com/ChatTileDemo)
@@ -24,7 +24,7 @@ The demo includes the following client-side functionalities:
 
 ## Install
 If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
-* As prerequisite, the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+* As prerequisite, the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ChatTile-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Download this project.
 * Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
   and put it in the `src/js` folder of the demo. Alternatively, you can build a lightstreamer.js file from the 
@@ -41,17 +41,17 @@ The client demo configuration assumes that Lightstreamer Server, Lightstreamer A
 ### Lightstreamer Adapters Needed by This Client
 
 <!-- START RELATED_ENTRIES -->
-* [Lightstreamer - Chat-Tile Demo -  Java Adapter](https://github.com/Weswit/Lightstreamer-example-ChatTile-adapter-java)
-* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Chat-Tile Demo -  Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ChatTile-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
 
 ### Related Projects
 
-* [Lightstreamer - Room-Ball Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoomBall-client-javascript)
-* [Lightstreamer - Chat Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Chat-client-javascript)
-* [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-RoundTrip-client-javascript)
-* [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Weswit/Lightstreamer-example-Messenger-client-javascript)
+* [Lightstreamer - Room-Ball Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-RoomBall-client-javascript)
+* [Lightstreamer - Chat Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-Chat-client-javascript)
+* [Lightstreamer - Round-Trip Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-RoundTrip-client-javascript)
+* [Lightstreamer - Basic Messenger Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-example-Messenger-client-javascript)
 
 ## Lightstreamer Compatibility Notes
 
