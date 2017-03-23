@@ -6,9 +6,9 @@ The *Chat-Tile Demo* implements a simple chat/collaborative application based on
 This project includes a web client front-end example for the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ChatTile-adapter-java).
 
 ## Live Demo
-[![screenshot](screen_large.png)](http://demos.lightstreamer.com/ChatTileDemo)
+[![screenshot](screen_large.png)](http://demos.lightstreamer.com/ChatTileDemo)<br>
 
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/ChatTileDemo)
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://demos.lightstreamer.com/ChatTileDemo)
 
 ## Details
 
