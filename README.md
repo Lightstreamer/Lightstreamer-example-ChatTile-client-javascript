@@ -17,8 +17,8 @@ Once logged in, the user can start exchange messages with every other user prese
 User messages are broadcasted as you type, character by character, to all other users.
 
 The demo includes the following client-side functionalities:
-* A [Subscription](http://www.lightstreamer.com/docs/client_javascript_uni_api/Subscription.html) containing 1 item, subscribed to in <b>COMMAND</b> mode.
-* The user messages are sent to the Lightstreamer Server using the [LightstreamerClient.sendMessage](http://www.lightstreamer.com/docs/client_javascript_uni_api/LightstreamerClient.html#sendMessage) utility.
+* A [Subscription](https://lightstreamer.com/api/ls-web-client/latest/Subscription.html) containing 1 item, subscribed to in <b>COMMAND</b> mode.
+* The user messages are sent to the Lightstreamer Server using the [LightstreamerClient.sendMessage](https://lightstreamer.com/api/ls-web-client/latest/LightstreamerClient.html#sendMessage) utility.
 
 <!-- END DESCRIPTION lightstreamer-example-chattile-client-javascript -->
 
@@ -26,9 +26,9 @@ The demo includes the following client-side functionalities:
 If you want to install a version of this demo pointing to your local Lightstreamer Server, follow these steps:
 * As prerequisite, the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ChatTile-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Download this project.
-* Get the `lightstreamer.js` file from the [latest Lightstreamer distribution](http://www.lightstreamer.com/download) 
-  and put it in the `src/js` folder of the demo. Alternatively, you can build a lightstreamer.js file from the 
-  [online generator](http://www.lightstreamer.com/docs/client_javascript_tools/generator.html).
+* Get the `lightstreamer.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.js) and put it in the `src/js` folder of the demo.
+  Alternatively, you can generate a customized lightstreamer.js library containing only the classes you actually use;
+  see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
   In that case, be sure to include the LightstreamerClient, Subscription, DynaGrid, and StatusWidget modules and to use the "Use AMD" version.
 * Get the `require.js` file from [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/js` folder of the demo.
 * Get the `masonry.pkgd.min.js` file from [Masonry - Cascading grid layout library - home page](http://masonry.desandro.com/) and put it in the `src/js` folder of the demo.
