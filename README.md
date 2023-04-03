@@ -27,9 +27,6 @@ If you want to install a version of this demo pointing to your local Lightstream
 * As prerequisite, the [Lightstreamer - Chat-Tile Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ChatTile-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * Download this project.
 * Get the `lightstreamer.min.js` file from [npm](https://www.npmjs.com/package/lightstreamer-client-web) or [unpkg](https://unpkg.com/lightstreamer-client-web/lightstreamer.min.js) and put it in the `src/js` folder of the demo.
-  Alternatively, you can generate a customized lightstreamer.min.js library containing only the classes you actually use;
-  see the build instructions on the [GitHub page](https://github.com/Lightstreamer/Lightstreamer-lib-client-javascript#building).
-  In that case, be sure to include the LightstreamerClient, Subscription, DynaGrid, and StatusWidget modules.
 * Get the `require.js` file from [requirejs.org](http://requirejs.org/docs/download.html) and put it in the `src/js` folder of the demo.
 * Get the `masonry.pkgd.min.js` file from [Masonry - Cascading grid layout library - home page](http://masonry.desandro.com/) and put it in the `src/js` folder of the demo.
 * Deploy this demo on the Lightstreamer Server (used as Web server) or in any external Web Server. If you choose the former, please note that in the `<LS_HOME>/pages/demos/` folder, there may be already a `ChatTileDemo` folder. If this is not your case, please create the folders `<LS_HOME>/pages/demos/ChatTileDemo` and copy here the contents of the `/src` folder of this project.
