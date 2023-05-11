@@ -15,6 +15,10 @@
 */
 
 var unfilteredPlayers = document.location.search.indexOf("unfiltered") > -1;
+
+require.config({
+  baseUrl: "js",
+});
   
 require(["login","Buddies","lsClient","DisplaySwitch","Subscription","StaticGrid"], 
     function(login,Buddies,lsClient,DisplaySwitch,Subscription,StaticGrid) {
