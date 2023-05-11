@@ -67,7 +67,7 @@ require(["login","Buddies","lsClient","DisplaySwitch","Subscription","StaticGrid
 
   var client = null;
   require(["lsClient","StatusWidget"],function(lsClient,StatusWidget) {   
-  lsClient.addListener(new StatusWidget("right", "15px", true));
+  lsClient.addListener(new StatusWidget("left", "0px", true));
   
   client = lsClient;
 });
