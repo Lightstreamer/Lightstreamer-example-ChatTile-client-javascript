@@ -16,7 +16,10 @@
 
 //////////////// Connect to current host (or localhost) and configure a StatusWidget
 define(["LightstreamerClient"],function(LightstreamerClient) {
-  var lsClient = new LightstreamerClient(null,"CHATTILE");
+  var protocolToUse = document.location.protocol != "file:" ? document.location.protocol : "http:";
+  var portToUse = document.location.protocol == "https:" ? "443" : "8080";
+
+  var lsClient = new LightstreamerClient(protocolToUse+"//localhost:"+portToUse,"CHATTILE");
   lsClient.connect();
 
   return lsClient;
